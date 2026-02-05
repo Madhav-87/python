@@ -1,0 +1,16 @@
+#Code for demonstrating the switch statements in python
+num1=int(input("Enter the number 1:"))
+num2=int(input("Enter the number 2:"))
+print("Enter 1 for Addition")
+print("Enter 2 for Substraction")
+print("Enter 3 for Multiplication")
+print("Enter 4 for Division")
+print("Enter 5 for Modular Division")
+choice=int(input("Enter the number:")) 
+match choice:
+    case 1:print("num1+num2:",num1+num2)
+    case 2:print("num1-num2:",num1-num2)
+    case 3:print("num1*num2:",num1*num2)
+    case 4:print("num1/num2:",num1/num2)
+    case 5:print("num1%num2:",num1%num2)
+    case _:print("Invalid choice!")
